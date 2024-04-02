@@ -1,0 +1,97 @@
+.subtitulo {
+    color: yellow;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: medium;
+    color: cornflowerblue;
+}
+
+ul li{
+    list-style: none;
+}
+
+.name_text {
+    font-size: 30px;
+    color: darkviolet;
+    font-family: "Carter One", system-ui;
+    text-align: center;
+    border-bottom: 2px solid darkviolet;
+
+}
+
+.text {
+    font-weight: bold;
+    color: darkslateblue;
+}
+
+.power {
+    background: linear-gradient(0deg, rgba(4,2,27,0.6) 0%, rgb(79, 8, 121,0.7) 100%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#imgSuperhero{
+    max-width: 50%;
+}
+
+.imagen {
+    width: 30%;
+}
+
+.box-img{
+    height: 423px;
+    background-image: url(../img/who_supereHeroe.jpg);
+    background-position: center;
+
+}
+
+.tit {
+    font-size: 35px;
+    color: orangered;
+    border-bottom: 2px solid orangered;
+    font-family: "Carter One", system-ui;
+}
+
+/*brealpoints*/
+
+
+@media (max-width: 1280px ) {
+
+    #imgSuperhero {
+        max-width:69%;
+    }
+
+}
+
+@media (max-width: 768px ) {
+
+    #imgSuperhero {
+        max-width: 45%;
+    }
+
+    .imagen {
+        width: 35%;
+    }
+
+}
+
+@media (max-width: 425px ) {
+
+    #imgSuperhero {
+        max-width: 79%;
+    }
+
+    .imagen {
+        width: 60%;
+    }
+
+}
+
